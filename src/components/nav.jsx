@@ -22,7 +22,7 @@ const Menu = () => {
             </div>
             <div className="md:flex md:gap-4 hidden mr-6">
                 <Link to="/" className="text-white">Home</Link>
-                <div className="text-white">About Us </div>
+                <div className="text-white hover:cursor-pointer">About Us </div>
                 <Link to="dashboard" className="text-white">Dashboard</Link>
                 <a href="#contact" className="text-white">Contact Us</a>
             </div>
@@ -35,7 +35,7 @@ const Menu = () => {
                     <div className="text-white">Sign Up/Log In</div>
                 </div>
             )}
-            <div className="text-white hidden md:inline-block bg-green-400 p-2 text-center mr-6 rounded-xl">Sign up/Log in</div>
+            <div className="text-white hidden md:inline-block bg-green-400 p-2 text-center mr-6 rounded-xl hover:cursor-pointer">Sign up/Log in</div>
         </div>
     )
 }

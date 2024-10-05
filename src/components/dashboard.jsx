@@ -1,5 +1,6 @@
 import CircleChart from "./CircleChart"
 import BarCharts from "./BarCharts";
+
 function Dashboard() {
    return (<>
 
@@ -54,6 +55,7 @@ function Dashboard() {
             </div>
          </div>
       </div>
+   
    </>)
 }
 export default Dashboard
